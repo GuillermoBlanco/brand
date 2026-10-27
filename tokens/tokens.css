@@ -1,0 +1,42 @@
+/* Guillermo Blanco — generated from tokens.json */
+@font-face { font-family: "Carlito"; src: url("../fonts/Carlito-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "Carlito"; src: url("../fonts/Carlito-Bold.ttf"); font-weight: 700; }
+:root, [data-theme="light"] {
+  --paper: #f3efe6;
+  --ink: #10131a;
+  --vermilion: #e5412d;
+  --stone: #5e5a50;
+  --surface: var(--paper);
+  --on-surface: var(--ink);
+  --surface-raised: #e9e4d8;
+  --hairline: #10131a30;
+  --on-vermilion: var(--ink);
+}
+[data-theme="dark"] {
+  --stone: #a9a599;
+  --surface: var(--ink);
+  --on-surface: var(--paper);
+  --surface-raised: #1b1f2a;
+  --hairline: #f3efe630;
+}
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 32px;
+  --grid-unit: 64px;
+  --grid-2: 128px;
+  --tile: 256px;
+  --radius-none: 0;
+  --radius-round: 50%;
+  --phi: 1.618;
+  --font-sans: "Carlito", "Calibri", "Segoe UI", system-ui, sans-serif;
+}
+.display { font-family: var(--font-sans); font-size: 80px; line-height: 76px; font-weight: 700; letter-spacing: -0.01em; }
+.wordmark-first { font-family: var(--font-sans); font-size: 48px; line-height: 56px; font-weight: 700; letter-spacing: 0.02em; }
+.wordmark-second { font-family: var(--font-sans); font-size: 48px; line-height: 56px; font-weight: 400; letter-spacing: 0.02em; }
+.heading { font-family: var(--font-sans); font-size: 32px; line-height: 38px; font-weight: 700; }
+.subheading { font-family: var(--font-sans); font-size: 20px; line-height: 26px; font-weight: 700; }
+.body { font-family: var(--font-sans); font-size: 16px; line-height: 24px; font-weight: 400; }
+.caption { font-family: var(--font-sans); font-size: 13px; line-height: 18px; font-weight: 400; }
+.label { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 700; letter-spacing: 0.2em; }
